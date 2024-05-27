@@ -19,7 +19,7 @@ function updateRegisters(value) {
   registers[j] = Math.max(registers[j], leadingZeroes);
 
   // Debug log (optional)
-  //console.log(`Value: ${value}, Hash: ${binaryHash}, Register: ${j}, Leading Zeroes: ${leadingZeroes}, Registers[${j}]: ${registers[j]}`);
+  console.log(`DEBUG:: Value: ${value}, Hash: ${binaryHash}, Register: ${j}, Leading Zeroes: ${leadingZeroes}, Registers[${j}]: ${registers[j]}`);
 }
 
 // Step 4: Calculate raw estimate (harmonic mean)
